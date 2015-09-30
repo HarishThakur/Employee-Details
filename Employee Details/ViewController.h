@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
-
+/**
+ *  Added Properties for to show employee details in label
+ */
+@property (weak, nonatomic) IBOutlet UILabel *labelForEmployeeName;
+@property (weak, nonatomic) IBOutlet UILabel *labelForEmployeeID;
+@property (weak, nonatomic) IBOutlet UILabel *labelForEmployeeDesignation;
+@property (weak, nonatomic) IBOutlet UILabel *labelForEmployeeAddress;
 @end
 
